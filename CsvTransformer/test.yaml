@@ -1,0 +1,14 @@
+files:
+  - source: CsvTransformer/test.csv
+    target: CsvTransformer/test_transformed.csv
+    # transformations:
+    #   - type: rename_column
+    #     old_name: old_column_name
+    #     new_name: new_column_name
+    #   - type: filter_rows
+    #     condition: "new_column_name > 10"
+    #   - type: add_column
+    #     column_name: new_column
+    #     value: "default_value"
+    #   - type: drop_column
+    #     column_name: column_to_drop

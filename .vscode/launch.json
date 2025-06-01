@@ -7,7 +7,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/CsvTransformer/bin/Debug/net8.0/CsvTransformer.dll",
-            "args": [],
+            "args": ["CsvTransformer/test.yaml"],
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
             "stopAtEntry": false
